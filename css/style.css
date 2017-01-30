@@ -1,0 +1,60 @@
+/*General styles START*/
+
+
+/*Nav menu START*/
+#main_nav {
+    width:100%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    margin: 0;
+    
+}
+
+
+#main_nav ul li a{
+    color: pink;
+}
+
+#main_nav ul li a: hover{
+    color:gray;
+}
+
+#main_nav.scroll {
+    background-color: orange;
+}
+
+#main_nav.scroll ul li a {
+    color: red;
+}
+
+#main-nav.scroll ul li a:hover{
+    color:pink;
+}
+
+#main_nav .navbar-brand {
+    color:red;
+    position: relative;
+}
+
+#main_nav .navbar-nav a{
+    color: black;
+    left:50px;
+    font-size: 12px;
+        
+}
+
+#main_nav .navbar-brand.scrol {
+    color: black;
+    margin-left:100px;
+    position:relative;
+}
+
+.toggle, #drop {
+    display: none;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 20px 40px;
+}
